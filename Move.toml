@@ -1,0 +1,11 @@
+[package]
+name = 'ALTSLTBondV3'
+version = '1.0.0'
+upgrade_policy = "compatible"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "mainnet" }
+
+[addresses]
+aptos_launch = "0x37fa721a254f81fdb2889911ec2dd1fcf4c9f620e1902a2ca9267c79868f432b"
+collect_address = "0x8f2ed80aa423229a927e3b6df78f1494a03ee16d472f8448dc004a01ad24f59e"
